@@ -2,7 +2,6 @@ package exceptions
 
 fun main() {
     val account = BankAccount()
-
     try {
         account.deposit(500.0)
         account.withdraw(600.0)
